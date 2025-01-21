@@ -21,7 +21,7 @@ public class Task4 {
         return Arrays.stream(Month.values())
                 .map(Month::name)
                 .filter(name -> name.contains(substring.toUpperCase()))
-                .map(name -> name.length())
+                .map(String::length)
                 .distinct()
                 .collect(Collectors.toList());
     }

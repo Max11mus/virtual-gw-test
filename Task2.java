@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Task2 {
     public static void main(String[] args) {
         String address1 = "555 Straight Stave Ave, San Francisco, CA 94104";
